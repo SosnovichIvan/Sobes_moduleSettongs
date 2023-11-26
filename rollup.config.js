@@ -10,7 +10,7 @@ export default {
       },
       // Modules to expose
       exposes: {
-        "./App": "./src/app/ui/index",
+        "./App": "./src/app/ui/module/ui/index.tsx",
       },
       shared: ["react", "react-dom"],
     }),
