@@ -3,10 +3,10 @@ export default {
   input: "src/index.js",
   plugins: [
     federation({
-      name: "sobesedovanie",
+      name: "settings",
       filename: "remoteEntry.js",
       remotes: {
-        hostApp: "http://localhost:3001/assets/remoteEntry.js",
+        host: "http://localhost:3001/assets/remoteEntry.js",
       },
       // Modules to expose
       exposes: {

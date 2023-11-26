@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --open --port 3002 --strictPort",
+    "dev": "vite --open --port 3005 --strictPort",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview --port 3002 --strictPort",
+    "preview": "vite preview --port 3005 --strictPort",
     "host": "npm run build && npm run preview"
   },
   "dependencies": {
